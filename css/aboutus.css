@@ -1,0 +1,1107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 100%;
+    color: #333;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    cursor: default;
+}
+img{
+    cursor: grab;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1204px;
+}
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+
+.header{
+    width: 100%;
+    align-items: center;
+    padding: 20px 0;
+}
+.logo{
+    width: 20%;
+}
+.logo-img{
+    width: 50%;
+    line-height: 0;
+}
+.logo-img img{
+    width: 100%;
+}
+.information{
+    width: 35%;
+    align-items: center;
+}
+.phone-info{
+    width: 40%;
+}
+.phone-info ul li{
+    line-height: 25px;
+    list-style: none;
+}
+.phone-info i{
+    font-size: 20px;
+    padding-right: 5%;
+}
+.phone-info li:last-child i{
+    font-size: 25px;
+    padding-right: 5%;
+}
+.email-info{
+    width: 53%;
+    line-height: 25px;
+}
+.email-info i{
+    font-size: 20px;
+    padding-right: 5%;
+}
+.social{
+    width: 60%;
+    padding-top: 5px;
+}
+.facebook,.twitter,.google,.youtube{
+    width: 25%;
+}
+.social i{
+    font-size: 25px;
+}
+
+/* nav start*/
+.nav-bg{
+    background-color: #B32E00;
+}
+.nav{
+    width: 60%;
+}
+.nav .nav-bar{
+    width: 100%;
+}
+.nav-bar li{
+    width: 120px;
+    height: 60px;
+    list-style: none;
+    text-transform: uppercase;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.nav-bar li:nth-child(4) {
+    width: 150px;
+}
+.nav-bar li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    transition: 0.4s ease;
+    position: relative;
+}
+.nav-bar li a:hover{
+    font-weight: bolder;
+}
+.search-btn{
+    width: 20%;
+    align-self: center;
+}
+.search-btn .button {
+    width: 80%;
+}
+.search-btn .button input{
+    width: 100%;
+    height: 30px;
+    background: #fff;
+    /* border-radius: 8px; */
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 10px;
+    border:none;
+}
+.search-btn .button input:focus{
+    outline:none;
+}
+.search-icon{
+    width: 20%;
+    /* align-self: center;
+    text-align: center; */
+}
+.search-icon button{
+    border:none;
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: none;
+    background: #000;
+    font-size: 20px;
+    height: 30px;
+    line-height: 30px;
+}
+.search-btn i{
+    color: #fff;
+    transform: scale(1.0);
+}
+.search-btn i:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+/* nav end */
+/* bg-color */
+.bg-color{
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 80px 0;
+}
+.para{
+    width: 15%;
+    margin: 0 auto;
+    position: relative;
+}
+.para p{
+    padding: 0 10px;
+}
+.para p:first-child::after{
+    position: absolute;
+    content: "";
+    height: 20px;
+    transform: rotate(30deg);
+    margin: 0 30px;
+    border: 2px solid #B32E00;
+}
+/* bg-color */
+/* about start */
+.about{
+    width: 100%;
+    padding: 100px 0;
+}
+.about h1{
+    text-align: center;
+    font-size: 40px;
+}
+.aboutus-para{
+    width: 100%;
+    padding: 30px 0;
+}
+.aboutus-photo{
+    width:45%;
+}
+.aboutus-img{
+    width: 100%;
+    line-height: 0;
+}
+.aboutus-img img{
+    width: 100%;
+    border-radius: 10px;
+}
+.aboutus-paragraph{
+    width:50%;
+}
+.aboutus-para h2{
+    padding-left: 15px;
+    position: relative;
+    padding-bottom: 25px;
+}
+.aboutus-paragraph h2::before{
+    content: "";
+    position: absolute;
+    border: 2px solid #B32E00;
+    height: 25px;
+    left: 0;
+}
+.aboutus-paragraph p{
+    padding: 10px 0;
+    /* font-style: italic; */
+    /* font-weight: bolder; */
+    text-align: justify;
+    letter-spacing: 1px;
+    line-height: 23px;
+}
+/* about end */
+/* meetchefs start */
+.meetchefs{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 100px;
+}
+.meetchefs h1{
+    padding-bottom: 20px;
+}
+.meetchefs p{
+    width: 80%;
+    margin: 0 auto;
+}
+.chefs{
+    width: 100%;
+    padding: 30px 0;
+}
+.chef-photos{
+    width: 20%;
+}
+
+.chef-img{
+    background-image: url(../images/images\ \(20\).jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    border-radius: 10px;
+}
+.chef-img1{
+    background-image: url(../images/maxresdefault.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    border-radius: 10px;
+}
+.chef-img2{
+    background-image: url(../images/images\ \(21\).jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    border-radius: 10px;
+}
+.chef-img3{
+    background-image: url(../images/images\ \(17\).jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    border-radius: 10px;
+}
+.chef-photos h3{
+    padding-top: 20px;
+}
+.chef-photos p{
+    padding-top: 5px;
+    width: 100%;
+}
+/* meetchefs end */
+/* feedback start */
+.feedbacks{
+    width: 100%;
+    padding-bottom: 100px;
+}
+.feedbacks h1{
+    text-align: center;
+}
+.feedbackcustomers{
+    width: 100%;
+    padding: 10px 0;
+}
+.feedbackcustomers h2{
+    position: relative;
+    padding-left: 15px;
+    font-size: 20px;
+}
+.feedbackcustomers h2::before{
+    content: "";
+    position: absolute;
+    border: 2px solid #B32E00;
+    height: 25px;
+    left: 0;
+}
+.feedback-overflow{
+    width: 100%;
+    overflow: hidden;
+}
+.customers-feedback{
+    width: 400%;
+    position: relative;
+    padding: 30px 0;
+    animation: feedback 30s infinite;
+}
+.customers-feedback:hover{
+    animation-play-state: paused;
+    cursor: pointer;
+}
+.customer1{
+    border-radius: 10px;
+    width: 100%;
+    padding: 20px;
+    margin: 0 50px;
+    box-shadow: 1px 1px 5px grey;
+}
+.customer1-photo{
+    width: 15%;
+    text-align: center;
+}
+.customer1-img{
+    width: 100%;
+    line-height: 0;
+}
+.customer1-img img{
+    width: 100%;
+}
+.customer1-photo h4{
+    padding-top: 10px;
+}
+.customer1-para{
+    width: 80%;
+    font-weight: bolder;
+    align-self: center;
+}
+.customer1-para p:last-child {
+    padding-top: 30px;
+}
+@keyframes feedback{
+    0%{
+        left: 0;
+    }
+    25%{
+        left: -100%;
+    }
+    50%{
+        left: -200%;
+    }
+    75%{
+        left: -300%;
+    }
+    100%{
+        left: 0;
+    }
+}
+/* feedback end */
+/* graph start */
+.graph{
+    width: 100%;
+    padding-bottom: 100px;
+}
+.lists{
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 20px 0 30px;
+}
+.graph-list{
+    width: 45%;
+    padding: 5px 0;
+}
+.graph-customer{
+    width: 20%;
+    align-self: center;
+}
+.graph-percent{
+    width: 80%;
+}
+.year{
+    width: 10%;
+}
+.year-percent .percent{
+    width: 40%;
+    text-align: center;
+    margin-right: auto;
+}
+.graph-photo{
+    width: 100%;
+}
+.graph-photo p{
+    background-color: #000;
+    width: 100%;
+    position: relative;
+    height: 20px;
+    border-radius: 5px;
+}
+#graph1{
+    background-color: #B32E00;
+    width: 30%;
+    position: absolute;
+    height: 20px;
+    border-radius: 5px;
+}
+.graph-photo2 p{
+    background-color: #000;
+    width: 100%;
+    position: relative;
+    height: 20px;
+    border-radius: 5px;
+}
+#graph2{
+    background-color: #B32E00;
+    width: 35%;
+    position: absolute;
+    height: 20px;
+    border-radius: 5px;
+}
+.year-percent2 .percent{
+    width: 45%;
+    text-align: center;
+    margin-right: auto;
+}
+.graph-photo3 p{
+    background-color: #000;
+    width: 100%;
+    position: relative;
+    height: 20px;
+    border-radius: 5px;
+}
+#graph3{
+    background-color: #B32E00;
+    width: 40%;
+    position: absolute;
+    height: 20px;
+    border-radius: 5px;
+}
+.year-percent3 .percent{
+    width: 35%;
+    text-align: right;
+    margin-right: auto;
+}
+.graph-photo4 p{
+    background-color: #000;
+    width: 100%;
+    position: relative;
+    height: 20px;
+    border-radius: 5px;
+}
+#graph4{
+    background-color: #B32E00;
+    width: 45%;
+    position: absolute;
+    height: 20px;
+    border-radius: 5px;
+}
+.year-percent4 .percent{
+    width: 40%;
+    text-align: right;
+    margin-right: auto;
+}
+.graph-photo5 p{
+    background-color: #000;
+    width: 100%;
+    position: relative;
+    height: 20px;
+    border-radius: 5px;
+}
+#graph5{
+    background-color: #B32E00;
+    width: 50%;
+    position: absolute;
+    height: 20px;
+    border-radius: 5px;
+}
+.year-percent5 .percent{
+    width: 45%;
+    text-align: right;
+    margin-right: auto;
+}
+.graph-photo6 p{
+    background-color: #000;
+    width: 100%;
+    position: relative;
+    height: 20px;
+    border-radius: 5px;
+}
+#graph6{
+    background-color: #B32E00;
+    width: 30%;
+    position: absolute;
+    height: 20px;
+    border-radius: 5px;
+}
+.year-percent6 .percent{
+    width: 25%;
+    text-align: right;
+    margin-right: auto;
+}
+.graph-photo7 p{
+    background-color: #000;
+    width: 100%;
+    position: relative;
+    height: 20px;
+    border-radius: 5px;
+}
+#graph7{
+    background-color: #B32E00;
+    width: 60%;
+    position: absolute;
+    height: 20px;
+    border-radius: 5px;
+}
+.year-percent7 .percent{
+    width: 55%;
+    text-align: right;
+    margin-right: auto;
+}
+.graph-photo8 p{
+    background-color: #000;
+    width: 100%;
+    position: relative;
+    height: 20px;
+    border-radius: 5px;
+}
+#graph8{
+    background-color: #B32E00;
+    width: 70%;
+    position: absolute;
+    height: 20px;
+    border-radius: 5px;
+}
+.year-percent8 .percent{
+    width: 65%;
+    text-align: right;
+    margin-right: auto;
+}
+.graph-photo9 p{
+    background-color: #000;
+    width: 100%;
+    position: relative;
+    height: 20px;
+    border-radius: 5px;
+}
+#graph9{
+    background-color: #B32E00;
+    width: 80%;
+    position: absolute;
+    height: 20px;
+    border-radius: 5px;
+}
+.year-percent9 .percent{
+    width: 75%;
+    text-align: right;
+    margin-right: auto;
+}
+.graph-photo10 p{
+    background-color: #000;
+    width: 100%;
+    position: relative;
+    height: 20px;
+    border-radius: 5px;
+}
+#graph10{
+    background-color: #B32E00;
+    width: 85%;
+    position: absolute;
+    height: 20px;
+    border-radius: 5px;
+}
+.year-percent10 .percent{
+    width: 80%;
+    text-align: right;
+    margin-right: auto;
+}
+/* graph end */
+/* summary start */
+.summary-bg{
+    background-color: #000;
+}
+.summary{
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    padding: 50px 0 30px;
+}
+.summary-logo{
+    width: 15%;
+    margin: 0 auto;
+    line-height: 0;
+}
+.summary-logo img{
+    width: 100%;
+}
+.summary-nav{
+    width: 55%;
+    margin: 0 auto;
+    padding: 30px 0 20px; 
+}
+.summary-nav li{
+    width: 120px;
+    list-style: none;
+    text-transform: uppercase;
+}
+.summary-nav li a{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+}
+.summary-nav li:hover{
+    font-weight: bolder;
+    cursor: pointer;
+}
+.summary-nav li:nth-child(4){
+    width: 150px;
+}
+.summary p{
+    font-style: italic;
+    letter-spacing: 1px;
+}
+/* summary end */
+.bars-icon{
+    display: none;
+}
+#arrow-up{
+    padding: 10px;
+    background: #B32E00;
+    border: none;
+    border-radius: 5px;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    cursor: pointer;
+    z-index: 1;
+    box-shadow: 0px 0px 10px #000;
+}
+#arrow-up i{
+    font-size: 20px;
+    color: #fff;
+}
+#arrow-up i:hover{
+    transform: scale(1.1);
+}
+/* responsive start */
+@media screen and (max-width:767px) {
+    .container{
+        width: 100%;
+        padding: 0 calc(20/750 *100vw);
+    }
+    .flex-container{
+        display: block;
+    }
+    p{
+        font-size: calc(28/750 *100vw);
+        letter-spacing: calc(2/750 *100vw);
+    }
+    h1{
+        font-size: calc(50/750 *100vw);
+        padding: calc(40/750 *100vw) 0;
+    }
+    h2{
+        font-size: calc(40/750 *100vw);
+    }
+    h3{
+        font-size: calc(35/750 *100vw);
+    }
+    h4{
+        font-size: calc(30/750 *100vw);
+    }
+
+    #arrow-up{
+        padding: calc(
+            20/750 *100vw);
+        border-radius: calc(
+            10/750 *100vw);
+        bottom: calc(
+            30/750 *100vw);
+        right: calc(
+            30/750 *100vw);
+    }
+    #arrow-up i{
+        font-size: calc(
+            40/750 *100vw);
+    }
+    /* header start */
+    .header {
+        display: flex;
+        justify-content: space-between;
+        padding: calc(40/750 *100vw) 0; 
+    }
+    .logo {
+        width: 40%;
+    }
+    .logo-img {
+        width: 80%;
+        line-height: 0;
+    }
+    .information {
+        width: 60%;
+        align-items: center;
+    }
+    .phone-info ul li {
+        line-height: calc(50/750 *100vw);
+        list-style: none;
+        font-size: calc(28/750 *100vw)
+    }
+    .phone-info {
+        width: 100%;
+    }
+    .phone-info i {
+        font-size: calc(40/750 *100vw);
+        padding-right: calc(20/750 *100vw);
+    }
+    .phone-info li:last-child i {
+        font-size:calc(50/750 *100vw);
+        padding-right: calc(20/750 *100vw);
+    }
+    .email-info {
+        width: 100%;
+        line-height: 25px;
+    }
+    .email-info i {
+        font-size: calc(40/750 *100vw);
+        padding-right: calc(20/750 *100vw);
+    }
+    .social {
+        display: none;
+    }
+    /* header end */
+    .bars-icon{
+        display: block;
+        color: #fff;
+    }
+    .bars-icon i{
+        font-size: calc(40/750 *100vw);
+        padding: calc(20/750 *100vw) calc(20/750 *100vw);
+    }
+    .nav {
+        width: 100%;
+    }
+    .nav-bar li {
+        width: fit-content;
+        height: calc(120/750 *100vw);
+        line-height: calc(120/750 *100vw);
+        text-align: left;
+        padding-left: calc(40/750 *100vw);
+        letter-spacing: calc(2/750 *100vw);
+        font-size: calc(30/750 *100vw);
+    }
+    .nav-bar li:nth-child(4) {
+        width: 100%;
+    }
+    .search-btn {
+        display: none;
+    }
+    /* nav-bar end */
+    .bg-color {
+        background-color: #000;
+        color: #fff;
+        text-align: center;
+        padding: calc(50/750 *100vw) 0 calc(100/750 *100vw);
+    }
+    .para {
+        width: 50%;
+        margin: 0 auto;
+        position: relative;
+        display: flex;
+    }
+    .para p {
+        padding: 0 ;
+    }
+    .para p:first-child::after {
+        position: absolute;
+        content: "";
+        height: calc(40/750 *100vw);
+        transform: rotate(30deg);
+        margin: calc(-6/750 *100vw) calc(60/750 *100vw);
+        border: calc(4/750 *100vw) solid #B32E00;
+    }
+    /* about start */
+    .about {
+        width: 100%;
+        padding: calc(100/750 *100vw) 0 calc(20/750 *100vw);
+    }
+    .about h1 {
+        text-align: center;
+        font-size: calc(50/750 *100vw);
+        padding-bottom: calc(5/750 *100vw);
+    }
+    .aboutus-para {
+        width: 100%;
+        padding: calc(50/750 *100vw) 0 0;
+    }
+    .aboutus-photo {
+        width: 100%;
+    }
+    .aboutus-img img {
+        width: 100%;
+        border-radius: calc(20/750 *100vw);
+    }
+    .aboutus-paragraph {
+        width: 100%;
+        padding-top: calc(40/750 *100vw);
+    }
+    .aboutus-para h2 {
+        padding-left: calc(30/750 *100vw);
+        padding-bottom: calc(30/750 *100vw);
+    }
+    .aboutus-paragraph h2::before {
+        content: "";
+        position: absolute;
+        border: calc(4/750 *100vw) solid #B32E00;
+        height: calc(50/750 *100vw);
+        left: 0;
+    }
+    .aboutus-paragraph p {
+        padding: calc(20/750 *100vw) 0;
+        letter-spacing: calc(2/750 *100vw);
+        line-height: calc(46/750 *100vw);
+    }
+    /* about end */
+    /* meet our chefs  start*/
+    .meetchefs {
+        padding: calc(100/750 *100vw) 0  calc(0/750 *100vw);
+    }
+    .meetchefs h1 {
+        padding-bottom: calc(40/750 *100vw);
+    }
+    .meetchefs p {
+        width: 100%;
+        line-height: calc(40/750 *100vw);
+    }
+    .chefs {
+        padding: calc(60/750 *100vw) 0 calc(40/750 *100vw);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .chef-photos {
+        width: 48%;
+    }
+    .chef-img,.chef-img1,.chef-img2,.chef-img3 {
+        height: calc(500/750 *100vw);
+        border-radius:calc(20/750 *100vw);
+    }
+    .chef-photos h3 {
+        padding-top: calc(30/750 *100vw);
+    }
+    .chef-photos p {
+        padding-top: calc(20/750 *100vw);
+        padding-bottom: calc(80/750 *100vw);
+    }
+    /* meet our chefs end */
+    /* feedback start */
+    .feedbacks {
+        width: 100%;
+        padding-bottom: calc(150/750 *100vw);
+    }
+    .feedbackcustomers {
+        padding: calc(20/750 *100vw) 0;
+    }
+    .feedbackcustomers h2 {
+        padding-left: calc(30/750 *100vw);
+        font-size: calc(40/750 *100vw);
+        padding-top: calc(40/750 *100vw);
+    }
+    .feedbackcustomers h2::before {
+        border: calc(4/750 *100vw) solid #B32E00;
+        height: calc(40/750 *100vw);
+    }
+    .customers-feedback {
+        width: 100%;
+        padding: calc(60/750 *100vw) 0;
+        animation: 0s;
+    }
+    .customer1 {
+        border-radius: calc(20/750 *100vw);
+        width: 100%;
+        padding: calc(40/750 *100vw);
+        margin: 0;
+        box-shadow: calc(2/750 *100vw) calc(2/750 *100vw) calc(10/750 *100vw) grey;
+    }
+    .customer1-photo {
+        width: 50%;
+        margin: 0 auto;
+    }
+    .customer1-photo h4 {
+        padding-top: calc(20/750 *100vw);
+        padding-bottom: calc(30/750 *100vw);
+    }
+    .customer1-para {
+        width: 100%;
+        text-align: justify;
+    }
+    .customer1-para p:last-child {
+        text-align: center;
+        padding-top: calc(60/750 *100vw);
+    }
+    /* feedback end */
+    /* graph start */
+    .graph {
+        width: 100%;
+        padding-bottom: calc(150/750 *100vw);
+    }
+    .lists {
+        padding: calc(40/750 *100vw) 0 calc(60/750 *100vw);
+    }
+    .graph-list {
+        width: 100%;
+        padding: calc(10/750 *100vw) 0 calc(20/750 *100vw);
+        display: flex;
+        justify-content: space-between;
+    }
+    .graph-customer {
+        width: 30%;
+        align-self: center;
+        padding-bottom: calc(20/750 *100vw);
+    }
+    .graph-percent {
+        width: 70%;
+    }
+    /* .year-percent{
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: calc(20/750 *100vw);
+    } */
+    .graph-photo p {
+        width: 100%;
+        /* height: calc(40/750 *100vw); */
+        border-radius: calc(10/750 *100vw);
+    }
+    .year-percent,.year-percent2,.year-percent3,.year-percent4,.year-percent5,.year-percent6,.year-percent7,.year-percent8,.year-percent9,.year-percent10{
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: calc(20/750 *100vw);
+    }
+    .year-percent2 .percent {
+        width: 50%;
+        text-align: center;
+        margin-right: auto;
+    }
+    /* graph end */
+    /* summary start */
+    .summary {
+        padding: calc(100/750 *100vw) 0 calc(60/750 *100vw);
+    }
+    .summary-logo {
+        width: calc(300/750 *100vw);
+    }
+    .summary-nav {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin: 0;
+        padding: calc(50/750 *100vw) 0 calc(20/750 *100vw);
+    }
+    .summary-nav li {
+        width: calc(200/750 *100vw);
+        font-size: calc(24/750 *100vw);
+    }
+    .summary-nav li:nth-child(2){
+        width: calc(300/750 *100vw);
+    }
+    .summary-nav li:nth-child(3){
+        width: calc(300/750 *100vw);
+    }
+    .summary-nav li:nth-child(4){
+        width: calc(360/750 *100vw);
+    }
+    .summary-nav li:nth-child(5){
+        width:calc(360/750 *100vw);
+    }
+    .summary p {
+        font-size:  calc(28/750 *100vw);
+        letter-spacing: calc(2/750 *100vw);
+    }
+    /* summary end */
+}
+/* responsive end */
+@media screen and (min-width: 768px) and (max-width: 1200px){
+    
+    .information {
+        width: 65%;
+        align-items: center;
+    }
+    .nav {
+        width: 75%;
+    }
+    .nav-bar li {
+        width: 120px;
+        height: 60px;
+        list-style: none;
+        text-transform: uppercase;
+        line-height: 60px;
+        text-align: center;
+        letter-spacing: 1px;
+        font-size: 14px;
+    }
+    .nav-bar li:last-child {
+        width: 150px;
+    }
+    .search-btn {
+        width: 20%;
+    }
+    .search-btn .button input {
+        width: 95%;
+    }
+    .search-btn i {
+        font-size: 15px;
+        color: #fff;
+    }
+    .search-btn .button input {
+        width: 100%;
+        height: 30px;
+        background: #fff;
+        /* border-radius: 8px; */
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        padding: 10px;
+        border: none;
+    }
+    .search-icon button {
+        width: 100%;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        background: none;
+        background: #000;
+        font-size: 20px;
+        height: 30px;
+        line-height: 30px;
+    }
+    .para {
+        max-width: 220px;
+        width: 28%;
+        margin: 0 auto;
+        position: relative;
+    }
+    .para p:first-child::after {
+        height: 20px;
+        margin: 0 35px;
+        max-width: 100px;
+        border: 2px solid #B32E00;
+    }
+    /* about */
+    .aboutus-img img {
+        width: 100%;
+        border-radius: 10px;
+    }
+    .aboutus-paragraph p:last-child {
+        display: none;
+    }
+
+    /* about */
+    /* chef's */
+    .meetchefs p {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .chef-img img {
+        width: 100%;
+        border-radius: 10px;
+        height: 180px;
+    }
+    /* chef's */
+    /* graph */
+
+    .graph-customer {
+        width: 20%;
+        align-self: center;
+    }
+    .graph-percent {
+        width: 70%;
+    }
+    /* graph */
+    /* summary */
+    .summary-nav {
+        width: 80%;
+    }
+    /* summary */
+}
+@media screen and (min-width:1441px) {
+    .para {
+        max-width: 220px;
+        width: 28%;
+        margin: 0 auto;
+        position: relative;
+    }
+}
+/* responsive end */

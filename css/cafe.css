@@ -1,0 +1,1123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 100%;
+    color: #333;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    cursor: default;
+}
+img{
+    cursor: grab;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1204px;
+}
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    font-size: 40px;
+}
+h2{
+   font-size: 30px; 
+}
+
+.header{
+    width: 100%;
+    align-items: center;
+    padding: 20px 0;
+}
+.logo{
+    width: 20%;
+}
+.logo-img{
+    width: 50%;
+    line-height: 0;
+}
+.logo-img img{
+    width: 100%;
+}
+.information{
+    width: 35%;
+    align-items: center;
+}
+.phone-info{
+    width: 40%;
+}
+.phone-info ul li{
+    line-height: 25px;
+    list-style: none;
+}
+.phone-info i{
+    font-size: 20px;
+    padding-right: 5%;
+}
+.phone-info li:last-child i{
+    font-size: 25px;
+    padding-right: 5%;
+}
+.email-info{
+    width: 53%;
+    line-height: 25px;
+}
+.email-info i{
+    font-size: 20px;
+    padding-right: 5%;
+}
+.social{
+    width: 60%;
+    padding-top: 5px;
+}
+.facebook,.twitter,.google,.youtube{
+    width: 25%;
+}
+.social i{
+    font-size: 25px;
+}
+
+/* nav start*/
+.nav-bg{
+    background-color: #B32E00;
+    width: 100%;
+}
+.nav{
+    width: 60%;
+}
+.nav .nav-bar{
+    width: 100%;
+}
+.nav-bar li{
+    width: 120px;
+    height: 60px;
+    list-style: none;
+    text-transform: uppercase;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.nav-bar li:nth-child(4) {
+    width: 150px;
+}
+.bars-icon{
+    display: none;
+}
+.nav-bar li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    transition: 0.4s ease;
+    position: relative;
+}
+.nav-bar li a:hover{
+    font-weight: bolder;
+}
+.search-btn{
+    width: 20%;
+    align-self: center;
+}
+.search-btn .button {
+    width: 80%;
+}
+.search-btn .button input{
+    width: 100%;
+    height: 30px;
+    background: #fff;
+    /* border-radius: 8px; */
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 10px;
+    border:none;
+}
+.search-btn .button input:focus{
+    outline:none;
+}
+.search-icon{
+    width: 20%;
+    /* align-self: center;
+    text-align: center; */
+}
+.search-icon button{
+    border:none;
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: none;
+    background: #000;
+    font-size: 20px;
+    height: 30px;
+    line-height: 30px;
+}
+.search-btn i{
+    color: #fff;
+    transform: scale(1.0);
+}
+.search-btn i:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+/* nav end */
+
+/* coffee start */
+.bg{
+    background-image: url(../images/Cafe-Wallpapers-HD-Free-download.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.coffee{
+    width: 60%;
+    color: #fff;
+    padding: 150px 0;
+}
+.coffee h2{
+    width: 100%;
+    padding-top: 5px;
+    position: relative;
+    padding-left: 15px;
+}
+.coffee h2::before {
+    content: "";
+    position: absolute;
+    border: 2px solid #B32E00;
+    height: 25px;
+    left: 0px;
+}
+.coffee p{
+    width: 80%;
+    /* font-style: italic; */
+    line-height: 25px;
+    letter-spacing: 1px;
+    padding: 30px 0;
+}
+.coffee .button button{
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #A52B00;
+    text-transform: uppercase;
+    font-weight: bolder;
+    transition: 0.4s ease;
+    transform: scale(1);
+    border:none;
+}
+.coffee .button button:hover{
+    transform: scale(1.1);
+}
+.coffee .button button a{
+    color:  #fff;
+    text-decoration: none;
+}
+/* coffee end */
+/* aboutus start */
+.aboutus{
+    width: 100%;
+    padding: 100px 0;
+}
+.coffee-circle{
+    width: 45%;
+    background-image: url(../images/Content\ Teaser\ SmallORIGINAL_FB_728x600\(desktop\).jpg);
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    border-radius: 10px;
+    height: 350px;
+}
+.coffee-circle-img{
+    width: 100%;
+    line-height: 0;
+    margin: 0 auto;
+}
+.coffee-circle-img img{
+    width: 100%;
+    border-radius: 10px;
+}
+.about{
+    width: 48%;
+}
+.about p{
+    width: 100%;
+    padding:30px 0 40px;
+}
+.about .button button{
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #A52B00;
+    text-transform: uppercase;
+    font-weight: bolder;
+    transition: 0.4s ease;
+    transform: scale(1);
+    border:none;
+}
+.about .button button:hover{
+    transform: scale(1.1);
+}
+.about .button button a{
+    color:  #fff;
+    text-decoration: none;
+}
+/* aboutus end */
+/* products start */
+.bg-img{
+    background-image: linear-gradient(#fff3,#fff3),url(../images/realistic-coffee-background_79603-1652.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.products{
+    width: 100%;
+    padding: 100px 0;
+}
+.products h1{
+    font-size: 35px;
+    text-align: center;
+    color: #fff;
+    padding-bottom: 30px;
+}
+.products-collections{
+    width: 100%;
+}
+.coffee-cakes{
+    width: 60%;
+    flex-wrap: wrap;
+}
+.products-coffee{
+    width: 48%;
+}
+.coffee1{
+    width: 100%;
+}
+.coffee1-img{
+    width: 100%;
+    line-height: 0;
+    margin-top: 20px;
+    overflow: hidden;
+    border-radius: 10px;
+    /* filter: grayscale(30%); */
+    /* filter: hue-rotate(15deg); */
+    /* filter: contrast(70%); */
+    /* filter: invert(10%); */
+    /* filter: saturate(70%); */
+    /* filter: sepia(50%); */
+    filter: brightness(0.8);
+}
+.coffee1-img img{
+    width: 100%;
+    border-radius: 10px;
+    height: 280px;
+    transition: 0.5s ease;
+    transform: scale(1.0);
+}
+.coffee1-img img:hover{
+    transform: scale(1.1);
+    cursor: grab;
+}
+.coffee-para-cost1{
+    width: 100%;
+    position: relative;
+    top: -30px;
+    color: #fff;
+}
+.coffee-para-cost{
+    width: 100%;
+    position: relative;
+    top: -30px;
+    color: #000;
+}
+.coffee-para{
+    width: 70%;
+    padding: 0 15px;
+    text-shadow: 1px 1px 5px #000;
+}
+.products-cakes{
+    width: 48%;
+}
+.cake1{
+    width: 100%;
+}
+.cake1-img{
+    margin-top: 20px;
+    width: 100%;
+    line-height: 0;
+    overflow: hidden;
+    border-radius: 10px;
+    filter: brightness(0.8);
+}
+.cake1-img img{
+    height: 280px;
+    width: 100%;
+    border-radius: 10px;
+    transform: scale(1.0);
+    transition: 0.5s ease;
+}
+.cake1-img img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.cake-para-cost{
+    width: 100%;
+    position: relative;
+    top: -30px;
+    color: #fff;
+}
+.cake-para{
+    width: 70%;
+    padding: 0 15px;
+    text-shadow: 1px 1px 5px #000;
+}
+.products-para{
+    width: 35%;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 60px 20px 0;
+}
+.products-para h2{
+    position: relative;
+    padding-left: 15px;
+}
+.products-para h2::before{
+    content: "";
+    position: absolute;
+    border: 2px solid #B32E00;
+    height: 25px;
+    left: 0px;
+}
+.list{
+    width: 100%;
+    padding: 30px 0;
+}
+.listsproducts{
+    width: 100%;
+    font-weight: bolder;
+    font-style: italic;
+    padding: 10px 0;
+}
+.products .button{
+    text-align: center;
+}
+.products .button button{
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #A52B00;
+    text-transform: uppercase;
+    font-weight: bolder;
+    transition: 0.4s ease;
+    transform: scale(1);
+    border:none;
+    color: #fff;
+}
+.products .button button:hover{
+    transform: scale(1.1);
+}
+.products .button button a{
+    color:  #fff;
+    text-decoration: none;
+}
+/* products end */
+
+/* video start */
+.video-para{
+    padding: 80px 0;
+    width: 100%;
+}
+.video{
+    width: 55%;
+    line-height: 0;
+}
+.shop-para{
+    width: 45%;
+    position: relative;
+}
+.shop-para p{
+    padding-top: 30px;
+}
+.shop-para p{
+    text-align: justify;
+    /* font-style:italic;
+    font-weight: bolder; */
+    letter-spacing: 1px;
+}
+/* video end */
+/* promotions start */
+.promotions{
+    width: 100%;
+    text-align: center;
+    padding: 50px 0;
+}
+.promotions h3{
+    padding: 10px 0 50px;
+} 
+.cake-promotions{
+    width: 100%;
+}
+.promotions-1,.promotions-2,.promotions-3{
+    width: 30%;
+}
+.promotions-img{
+    width: 100%;
+    line-height: 0;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.promotions-img img{
+    width: 100%;
+    border-radius: 10px;
+    height: 300px;
+    position: relative;
+    transform: scale(1.0);
+    transition: 0.5s ease;
+}
+.promotions-img img:hover{
+    transform: scale(1.1);
+}
+.promotions-para{
+    width: 80%;
+    margin: 0 auto;
+}
+.promotions-para h4{
+    padding: 10px 0;
+}
+.feed{
+    width: 100%;
+    background-color: #B32E00;
+    border-radius: 10px;
+}
+.feedbacks{
+    width: 100%;
+    background-color: #B32E00;
+    border-radius: 10px;
+    color: #fff;
+    margin-top: 50px;
+    padding: 50px 20px;
+    text-align: center;
+    margin:0 auto;
+}
+.happy,.love,.cups,.skill{
+    width: 23%;
+}
+.feedbacks i{
+    font-size: 35px;
+    padding-bottom: 15px;
+}
+.feedbacks h2{
+    padding: 3px 0;
+}
+/* promotions end */
+/* nutriton start */
+.background{
+    background-image: url(../images/hot-espresso-coffee-bean-white-table_41050-2106.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nutrition{
+    width: 100%;
+    padding: 100px 0;
+}
+.nutrition h2{
+    position: relative;
+    padding-left: 15px;
+}
+.nutrition h2::before{
+    content: "";
+    border: 2px solid #A52B00;
+    position: absolute;
+    left: 0;
+    height: 25px;
+}
+.nutrition h3{
+    padding: 15px 0 25px;
+    padding-left: 15px;
+}
+.nutrition p{
+    width: 50%;
+    padding-left: 15px;
+    /* font-style: italic;
+    font-weight: bolder; */
+}
+.facts-list{
+    width: 40%;
+    padding: 10px 0;
+    padding-left: 15px;
+}
+.list-1,.list-2{
+    width: 40%;
+    padding-top: 10px;
+    position: relative;
+}
+.list-1::after{
+    content: "";
+    position: absolute;
+    border:2px solid #A52B00;
+    height: 120px;
+    left: 200px;
+    bottom: 0px;
+}
+.list-1 li{
+    list-style: none;
+    font-weight: bolder;
+    line-height: 25px;
+}
+.list-2 li{
+    text-align: right;
+    list-style: none;
+    font-weight: bolder;
+    line-height: 25px;
+}
+/* nutriton end */
+/* summary start */
+.summary-bg{
+    background-color: #000;
+}
+.summary{
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    padding: 50px 0 30px;
+}
+.summary-logo{
+    width: 15%;
+    margin: 0 auto;
+    line-height: 0;
+}
+.summary-logo img{
+    width: 100%;
+}
+.summary-nav{
+    width: 55%;
+    margin: 0 auto;
+    padding: 30px 0 20px; 
+}
+.summary-nav li{
+    width: 120px;
+    list-style: none;
+    text-transform: uppercase;
+}
+.summary-nav li a{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+}
+.summary-nav li:hover{
+    font-weight: bolder;
+    cursor: pointer;
+}
+.summary-nav li:nth-child(4){
+    width: 150px;
+}
+.summary p{
+    letter-spacing: 1px;
+    font-style: italic;
+}
+/* summary end */
+#arrow-up{
+    padding: 10px;
+    background: #B32E00;
+    border: none;
+    border-radius: 5px;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    cursor: pointer;
+    z-index: 1;
+    box-shadow: 0px 0px 10px #000;
+}
+#arrow-up i{
+    font-size: 20px;
+    color: #fff;
+}
+#arrow-up i:hover{
+    transform: scale(1.1);
+}
+/* responsive start */
+@media screen and (max-width:767px) {
+    .container{
+        width: 100%;
+        padding: 0 calc(20/750 *100vw);
+    }
+    .flex-container{
+        display: block;
+    }
+    p{
+        font-size: calc(28/750 *100vw);
+        letter-spacing: calc(2/750 *100vw);
+    }
+    h1{
+        font-size: calc(50/750 *100vw);
+    }
+    h2{
+        font-size: calc(40/750 *100vw);
+    }
+    h3{
+        font-size: calc(35/750 *100vw);
+    }
+    h4{
+        font-size: calc(30/750 *100vw);
+    }
+    button{
+        font-size: calc(28/750 *100vw);
+    }
+
+    #arrow-up{
+        padding: calc(
+            20/750 *100vw);
+        border-radius: calc(
+            10/750 *100vw);
+        bottom: calc(
+            30/750 *100vw);
+        right: calc(
+            30/750 *100vw);
+    }
+    #arrow-up i{
+        font-size: calc(40/750 *100vw);
+    }
+    /* header start */
+    .header {
+        display: flex;
+        justify-content: space-between;
+        padding: calc(40/750 *100vw) 0; 
+    }
+    .logo {
+        width: 40%;
+    }
+    .logo-img {
+        width: 80%;
+        line-height: 0;
+    }
+    .information {
+        width: 60%;
+        align-items: center;
+    }
+    .phone-info ul li {
+        line-height: calc(50/750 *100vw);
+        list-style: none;
+        font-size: calc(28/750 *100vw);
+    }
+    .phone-info {
+        width: 100%;
+    }
+    .phone-info i {
+        font-size: calc(40/750 *100vw);
+        padding-right: calc(20/750 *100vw);
+    }
+    .phone-info li:last-child i {
+        font-size:calc(50/750 *100vw);
+        padding-right: calc(20/750 *100vw);
+    }
+    .email-info {
+        width: 100%;
+        line-height: 25px;
+    }
+    .email-info i {
+        font-size: calc(40/750 *100vw);
+        padding-right: calc(20/750 *100vw);
+    }
+    .social {
+        display: none;
+    }
+    /* header end */
+    .bars-icon{
+        display: block;
+        color: #fff;
+    }
+    .bars-icon i{
+        font-size: calc(40/750 *100vw);
+        padding: calc(20/750 *100vw) calc(20/750 *100vw);
+    }
+    .nav {
+        width: 100%;
+    }
+    .nav-bar li {
+        width: fit-content;
+        padding-left: calc(40/750 *100vw);
+        height: calc(120/750 *100vw);
+        line-height: calc(120/750 *100vw);
+        text-align: left;
+        letter-spacing: calc(2/750 *100vw);
+        font-size: calc(30/750 *100vw);
+    }
+    .nav-bar li:nth-child(4) {
+        width: 100%;
+    }
+    .search-btn {
+        display: none;
+    }
+    /* nav-bar end */
+    /* header-para start */
+    .bg {
+        background-image: linear-gradient(#0007,#0007),url(../images/Cafe-Wallpapers-HD-Free-download.jpg);
+        background-position: right;
+    }
+    .coffee {
+        width: 100%;
+        padding: calc(200/750 *100vw) 0;
+    }
+    .coffee h1 {
+        font-size: calc(52/750 *100vw);
+    }
+    .coffee h2 {
+        padding-top: calc(20/750 *100vw);
+        font-size: calc(45/750 *100vw);
+        padding-left: calc(30/750 *100vw);
+    }
+    .coffee h2::before {
+        border: calc(4/750 *100vw) solid #B32E00;
+        height: calc(40/750 *100vw);
+    }
+    .coffee p {
+        width: 100%;
+        line-height: calc(50/750 *100vw);
+        letter-spacing: calc(2/750 *100vw);
+        padding: calc(60/750 *100vw) 0;
+    }
+    .coffee .button button {
+        width: calc(240/750 *100vw);
+        height: calc(80/750 *100vw);
+        border-radius: calc(10/750 *100vw);
+    }
+    /* header-para end */
+    /* aboutus start */
+    .aboutus {
+        padding: calc(150/750 *100vw) 0;
+    }
+    .coffee-circle {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .coffee-circle-img img {
+        width: 100%;
+        border-radius: calc(20/750 *100vw);
+    }
+    .about {
+        width: 100%;
+    }
+    .about p {
+        width: 100%;
+        padding: calc(40/750 *100vw) 0 0;
+    }
+    .about h2{
+        padding-top: calc(60/750 *100vw);
+    }
+    .about .button {
+
+        padding-top: calc(60/750 *100vw);
+    }
+    .about .button button {
+        width: calc(240/750 *100vw);
+        height: calc(80/750 *100vw);
+        border-radius: calc(10/750 *100vw);
+    }
+    /* about us end */
+    /* products start */
+    .bg-img {
+        background-position: right;
+    }
+    .products {
+        width: 100%;
+        padding: calc(150/750 *100vw) 0;
+    }
+    .products h1 {
+        font-size: calc(52/750 *100vw);
+        text-align: center;
+        color: #fff;
+        padding-bottom: calc(80/750 *100vw);
+    }
+    .coffee-cakes {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .coffee1-img {
+        margin-top: calc(10/750 *100vw);
+        border-radius: calc(20/750 *100vw);
+    }
+    .coffee1-img img {
+        border-radius: calc(20/750 *100vw);
+        height: calc(560/750 *100vw);
+    }
+    .coffee-para-cost1 {
+        top: calc(-60/750 *100vw);
+    }
+    .coffee-para {
+        width: 100%;
+        padding: 0 calc(30/750 *100vw);
+    }
+    .cake1-img {
+        margin-top: calc(10/750 *100vw);
+        border-radius: calc(20/750 *100vw);
+    }
+    .cake1-img img {
+        height: calc(560/750 *100vw);
+        border-radius: calc(20/750 *100vw);
+    }
+    .cake-para-cost {
+        top: calc(-60/750 *100vw);
+    }
+    .cake-para {
+        width: 100%;
+        padding: 0 calc(30/750 *100vw);
+    }
+    .products-para {
+        width: 100%;
+        border-radius:calc(20/750 *100vw);
+        margin-top: calc(60/750 *100vw);
+        padding: calc(50/750 *100vw) calc(40/750 *100vw) ;
+    }
+    .products-para h2 {
+        padding-left: calc(30/750 *100vw);
+    }
+    .products-para h2::before {
+        border: calc(4/750 *100vw) solid #B32E00;
+        height: calc(50/750 *100vw);
+    }
+    .list {
+        width: 100%;
+        padding: calc(20/750 *100vw) 0;
+    }
+    .listsproducts {
+        padding: calc(20/750 *100vw) 0;
+        display: flex;
+    }
+    .products .button button {
+        width: calc(240/750 *100vw);
+        height: calc(80/750 *100vw);
+        border-radius: calc(10/750 *100vw);
+    }
+    /* products end */
+    /* video start */
+    .video-para {
+        padding: calc(150/750 *100vw) 0;
+    }
+    .video {
+        width: 100%;
+        line-height: 0;
+    }
+    iframe{
+        width: 100%;
+        height: calc(600/750 *100vw);
+    }
+    .shop-para {
+        width: 100%;
+        padding: calc(40/750 *100vw) 0;
+    }
+    /* .shop-para h3 {
+        padding: calc(30/750 *100vw) 0 calc(40/750 *100vw);
+    } */
+    .shop-para p {
+        padding-top:calc(60/750 *100vw);
+        letter-spacing: calc(2/750 *100vw);
+    }
+    /* video end */
+    /* promotions start */
+    .promotions {
+        padding: calc(80/750 *100vw) 0;
+    }
+    .promotions h3 {
+        padding: calc(20/750 *100vw) 0 calc(80/750 *100vw);
+    }
+    .cake-promotions {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .promotions-1, .promotions-2, .promotions-3 {
+        width: 80%;
+        margin: 0 auto;
+        padding-bottom: calc(60/750 *100vw);
+    }
+    .promotions-img {
+        border-radius: calc(20/750 *100vw);
+    }
+    .promotions-img img {
+        border-radius: calc(20/750 *100vw);
+        height: calc(550/750 *100vw);
+    }
+    .promotions-para {
+        width: 100%;
+        margin: 0 auto;
+        display: flex; 
+    }
+    .promotions-para h2 {
+        padding: calc(20/750 *100vw) 0;
+    }
+    .feedbacks {
+        width: 100%;
+        background-color: #B32E00;
+        border-radius: calc(20/750 *100vw);
+        color: #fff;
+        margin:  0;
+        padding: calc(100/750 *100vw) calc(40/750 *100vw);
+        display: flex;
+    }
+    .feedbacks i {
+        font-size: calc(40/750 *100vw);
+        padding-bottom: calc(30/750 *100vw);
+    }
+    .feedbacks h2 {
+        padding: calc(6/750 *100vw) 0;
+    }
+    .counts h2{
+        font-size: calc(28/750 *100vw);
+    }
+    /* promotions end */
+    /* health start */
+    .background {
+        background-image: linear-gradient(#fff3,#fff6),url(../images/hot-espresso-coffee-bean-white-table_41050-2106.jpg);
+        background-position: right;
+    }
+    .nutrition {
+        width: 100%;
+        padding: calc(150/750 *100vw) 0;
+    }
+    .nutrition h2 {
+        padding-left: calc(30/750 *100vw);
+    }
+    .nutrition h2::before {
+        content: "";
+        border: calc(4/750 *100vw) solid #A52B00;
+        position: absolute;
+        left: 0;
+        height: calc(40/750 *100vw);
+    }
+    .nutrition h3 {
+        padding: calc(30/750 *100vw) 0 calc(50/750 *100vw);
+        padding-left: calc(30/750 *100vw);
+    }
+    .nutrition p {
+        width: 100%;
+        padding-left: calc(30/750 *100vw);
+    }
+    .facts-list {
+        width: 100%;
+        padding: calc(20/750 *100vw) 0;
+        padding-left: calc(30/750 *100vw);
+        display: flex;
+    }
+    .list-1{
+        padding-top: calc(20/750 *100vw);
+    }
+    .list-2 {
+        width: 50%;
+        padding-top: calc(20/750 *100vw);
+    }
+    .list-1 li {
+        line-height: calc(50/750 *100vw);
+        font-size: calc(30/750 *100vw);
+    }
+    .list-2 li {
+        line-height: calc(50/750 *100vw);
+        font-size: calc(30/750 *100vw);
+    }
+    .list-1::after {
+        border: calc(4/750 *100vw) solid #A52B00;
+        height: calc(240/750 *100vw);
+        left: calc(340/750 *100vw);
+    }
+    /* health end */
+    /* summary start */
+    .summary {
+        padding: calc(100/750 *100vw) 0 calc(60/750 *100vw);
+    }
+    .summary-logo {
+        width: calc(300/750 *100vw);
+    }
+    .summary-nav {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin: 0;
+        padding: calc(50/750 *100vw) 0 calc(20/750 *100vw);
+    }
+    .summary-nav li {
+        width: calc(200/750 *100vw);
+        font-size: calc(24/750 *100vw);
+    }
+    .summary-nav li:nth-child(2){
+        width: calc(300/750 *100vw);
+    }
+    .summary-nav li:nth-child(3){
+        width: calc(300/750 *100vw);
+    }
+    .summary-nav li:nth-child(4){
+        width: calc(360/750 *100vw);
+    }
+    .summary-nav li:nth-child(5){
+        width:calc(360/750 *100vw);
+    }
+    .summary p {
+        font-size:  calc(28/750 *100vw);
+        letter-spacing: calc(2/750 *100vw);
+    }
+    /* summary end */
+}
+/* responsive end */
+/* responsive start */
+@media screen and (min-width: 768px) and (max-width: 1334px){
+    .information {
+        width: 65%;
+        align-items: center;
+    }
+    .nav {
+        width: 75%;
+    }
+    .nav-bar li {
+        width: 120px;
+        height: 60px;
+        list-style: none;
+        text-transform: uppercase;
+        line-height: 60px;
+        text-align: center;
+        letter-spacing: 1px;
+        font-size: 14px;
+    }
+    .nav-bar li:last-child {
+        width: 150px;
+    }
+    .search-btn {
+        width: 20%;
+    }
+    .search-btn .button input {
+        width: 100%;
+    }
+    .search-btn i {
+        font-size: 15px;
+        color: #fff;
+    }
+    /* coffee */
+    .coffee {
+        width: 100%;
+    }
+    /* coffee */
+    /* video */
+    iframe{
+        width: 90%;
+    }
+    /* video */
+    /*health  */
+    .background {
+        background-image: linear-gradient(#fff3,#fff6),url(../images/hot-espresso-coffee-bean-white-table_41050-2106.jpg);
+    }
+    .nutrition p {
+        width: 100%;
+    }
+    .facts-list {
+        width: 60%;
+    }
+    .list-1::after {
+        display: none;
+    }
+    /* health */
+    /* summary */
+    .summary-nav {
+        width: 80%;
+    }
+    /* summary */
+}
+/* responsive end */
